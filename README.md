@@ -14,4 +14,4 @@ ToDo:
 1. ESP-32 Wi-Fi hotspot(LAN)
 2. List of devices including them state
 3. Python-assistant
-
+# In work
