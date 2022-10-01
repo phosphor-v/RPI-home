@@ -1,0 +1,11 @@
+Прошивка з-під віндовс MicroPython:
+
+Встановити Python3, встановивши на початку галочку Add to PATH
+Скачати BIN файл https://micropython.org/download/esp32/
+Відкрити CMD та ввести команди:
+ 1)pip install esptool
+ 2)esptool.py --chip esp32 --port COM3* erase_flash
+ 3)esptool.py --chip esp32 --port COM3* --baud 460800 write_flash -z 0x1000 esp32.bin**
+
+* - USB-порт для налагодження
+** - роміщення файлу та назва бін файлу, якщо виконується з папки де скачано то писати розміщененя не обов'язково
