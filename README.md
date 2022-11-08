@@ -11,7 +11,6 @@ Requirements:
 8. AC/DC and DC/DC converters
 
 ToDo:
-1. ESP-32 Wi-Fi hotspot(LAN)
-2. List of devices including them state
-3. Python-assistant
+List of devices including them state
+Python-assistant
 # In work
